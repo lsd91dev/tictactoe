@@ -1,0 +1,25 @@
+{
+    "name": "3in-noangular",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.5.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.9.2",
+        "jquery": "^3.5.1",
+        "jquery-ui-dist": "^1.12.1",
+        "nodemon": "^2.0.6",
+        "socket.io": "^3.0.4"
+    },
+    "devDependencies": {}
+}

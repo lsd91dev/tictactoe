@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe - Search room</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1> Search room </h1>
+    <div class="container-fluid">
+        <form id="form-new-room">
+            <div class="form-group">
+                <label for="username" data-id="username">Username</label>
+                <input type="text" class="form-control" id="username">
+            </div>
+            <div class="form-group">
+                <label for="room" data-id="room">Room</label>
+                <input type="text" class="form-control" id="room">
+            </div>
+            <button type="submit" class="btn btn-primary" id="search-room">Search room</button>
+        </form>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="js/validation/validation.js"></script>
+    <script src="js/ajax/search.room.controller.js"></script>
+</body>
+
+</html>

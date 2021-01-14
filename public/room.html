@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Room</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/room.css">
+</head>
+
+<body>
+    <h1 class="text-center">Tic-tac-toe</h1>
+
+    <div id="table">
+        <table>
+            <tr>
+                <td data-x="0" data-y="0">
+                </td>
+                <td data-x="1" data-y="0"></td>
+                <td data-x="2" data-y="0"></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="1"></td>
+                <td data-x="1" data-y="1"></td>
+                <td data-x="2" data-y="1"></td>
+            </tr>
+            <tr>
+                <td data-x="0" data-y="2"></td>
+                <td data-x="1" data-y="2"></td>
+                <td data-x="2" data-y="2"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="container-chat">
+        <div class="chat" id="chat">
+        </div>
+        <div class="form-group bottom-textarea">
+            <input type="text" class="form-control" id="chatarea" rows="3"></textarea>
+            <button id="sendMessage" class="btn btn-success">Send</button>
+        </div>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script src="js/ajax/room.controller.js"></script>
+    <script src="js/sockets/room/chat.sockets.js"></script>
+    <script src="js/sockets/room/game.sockets.js"></script>
+
+
+</body>
+
+</html>
