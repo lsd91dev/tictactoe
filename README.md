@@ -14,6 +14,7 @@ This application has been done with the purpose to learn and practice the fundam
 
 This project have environments for the port and bootstrap's + jquery's paths.
 
+# My resume
 
-I'm Lidia Sanchez Delgado, developer of this project. You can see my curriculum at 
+I'm Lidia Sanchez Delgado, developer of this project. You can see my resume at 
 https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=8743408865493247116
